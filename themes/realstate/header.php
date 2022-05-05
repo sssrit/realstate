@@ -26,7 +26,7 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="<?php echo site_url();?> ">Estate<span class="color-b">Agency</span></a>
+      <a class="navbar-brand" href="<?php echo site_url();?> "><img src="<?php echo get_theme_file_uri('/assets/img/logo.png');?>" height="90px"></a>
 
       <!-- <div class="navbar-collapse collapse justify-content-center" id="navbarDefault"> -->
         

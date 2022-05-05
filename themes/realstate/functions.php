@@ -37,7 +37,8 @@ function realstate_features()
     add_theme_support('post-thumbnails'); // Add support for thumbnail images in post/page
     add_image_size('propertiesFrontPage',410,540,true);
     add_image_size('propertiesDeatilsPage',600,800,true);
-
+    add_image_size('testimonialFrontPage',469,325,true);
+    add_image_size('testimonialShort',80,80,true);
 }
 add_action('after_setup_theme','realstate_features');
 
