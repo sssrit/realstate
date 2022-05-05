@@ -28,18 +28,18 @@
       </button>
       <a class="navbar-brand text-brand" href="<?php echo site_url();?> ">Estate<span class="color-b">Agency</span></a>
 
-       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault"> 
+      <!-- <div class="navbar-collapse collapse justify-content-center" id="navbarDefault"> -->
         
 
         <?php
-        wp_nav_menu(array(
+        /*wp_nav_menu(array(
           'theme_location' =>'headerMenuLocation',
           'menu_class' => 'navbar-nav'
-        ));
+        ));*/
         ?>
 
 <?php
-      /*  wp_nav_menu( array(
+        wp_nav_menu( array(
             'theme_location'    => 'headerMenuLocation',
             'depth'             => 2, // 1 = no dropdowns, 2 = with dropdowns.
             'container'         => 'div',
@@ -48,7 +48,7 @@
             'menu_class'        => 'nav navbar-nav',
             'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
             'walker'            => new WP_Bootstrap_Navwalker(),
-        ) );*/
+        ) );
         ?>
   <!--
           <li class="nav-item">
